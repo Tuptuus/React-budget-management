@@ -1,0 +1,24 @@
+.block_container {
+  width: 20%;
+  height: 70px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.title {
+  width: 300px;
+}
+
+.editButton {
+  cursor: pointer;
+}
+
+.moneyInput {
+  outline: none;
+  height: 30px;
+  font-size: 16px;
+}
