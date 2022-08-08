@@ -6,16 +6,44 @@
 }
 
 .App {
-  height: 100vh;
   width: 100%;
+  min-height: 100vh;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+    -45deg,
+    rgb(30, 162, 223) 0%,
+    rgb(51, 79, 218) 25%,
+    rgb(145, 38, 184) 51%,
+    rgb(243, 23, 104) 100%
+  );
+  animation: AnimateBG 20s ease infinite;
+  color: white;
 }
 
-/* .Top {
-  height: 20%;
+.Top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Main {
-  height: 529px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Bottom {
-  height: 200px;
-} */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,4 +1,5 @@
 .block_container {
+  border: 2px solid white;
   width: 20%;
   height: 70px;
   border-radius: 5px;
@@ -11,10 +12,12 @@
 
 .title {
   width: 300px;
+  word-wrap: break-word;
 }
 
 .editButton {
   cursor: pointer;
+  font-size: 35px;
 }
 
 .moneyInput {
